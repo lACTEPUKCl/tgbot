@@ -135,7 +135,6 @@ const askNextQuestion = async (chatId) => {
   const user = userAnswers[chatId];
   const currentStep = user.currentStep;
   const question = questions[currentStep];
-  console.log(user);
 
   if (!question) {
     const address = user["адрес"];
